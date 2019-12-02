@@ -1,17 +1,22 @@
 import React from 'react';
 // import './App.css';
 import Nav from './components/Nav';
+import Home from './components/Home';
+import About from './components/About';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 
 function App() {
   return (
     <div>
-      <header>
       <Nav />
-        <p>
-          Portfolio site placeholder.
-        </p>
-      </header>
+      <Home />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }

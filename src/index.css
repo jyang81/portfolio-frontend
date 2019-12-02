@@ -1,3 +1,11 @@
+
+/* USE FOR DEBUGGING */
+html * {
+    background: rgba(255, 0, 0, .1);
+    box-shadow: 0 0 0 1px red;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -20,18 +28,20 @@ nav {
 
 nav .logo {
   max-height: 2rem;
-  float: left;
-  
+  /* float: left; */
+  margin: 0px;
+  padding: 0px;
 }
 
 nav a {
-  float: right;
+  float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1rem 1.5rem;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  margin: 0;
 }
 
 nav a:hover {
@@ -48,6 +58,25 @@ nav .icon {
   display: none;
 }
 
-#name {
+/* #name {
   float: left;
+} */
+
+main {
+  text-align: center;
+  min-height: 400px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+footer {
+  min-height: 100px;
+  text-align: center;
+  padding: 1rem;
+}
+
+.mainimage {
+  border-radius: 50%;
+  max-height: 300px;
 }
