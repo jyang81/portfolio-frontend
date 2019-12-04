@@ -64,8 +64,8 @@ nav .icon {
 
 main {
   text-align: center;
-  min-height: 400px;
-  max-width: 900px;
+  min-height: 100vh;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 1rem 0;
 }
