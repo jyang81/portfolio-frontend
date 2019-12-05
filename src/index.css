@@ -22,31 +22,37 @@ code {
 
 
 nav {
-  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
   background: #12125c;
+  position: fixed;
+  width: 100vw;
 }
 
 nav .logo {
-  max-height: 2rem;
+  max-height: 1rem;
   /* float: left; */
-  margin: 0px;
-  padding: 0px;
+  margin: 0px 1rem;
+  padding: 0;
 }
 
 nav a {
-  float: left;
-  display: block;
+  /* float: left; */
+  /* display: block; */
   color: #f2f2f2;
-  text-align: center;
-  padding: 1rem 1.5rem;
+  /* text-align: center; */
+  padding: 0.8rem 1.5rem;
   text-decoration: none;
   font-size: 1.2rem;
   margin: 0;
 }
 
 nav a:hover {
-  background-color: #ddd;
-  color: black;
+  color: rgb(15, 237, 185);
 }
 
 nav a:active {
@@ -63,8 +69,14 @@ nav .icon {
 } */
 
 main {
-  text-align: center;
-  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  /* text-align: center; */
+  min-height: 90vh;
   max-width: 1000px;
   margin: 0 auto;
   padding: 1rem 0;
