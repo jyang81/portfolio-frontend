@@ -13,6 +13,7 @@ function App() {
   return (
     <div>
       <Nav />
+      <div className="top-spacer"><a name="home"></a></div>
       <Home />
       <About />
       <Projects />
