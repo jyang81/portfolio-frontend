@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <Nav />
-      <div className="top-spacer"><a name="home" href> </a></div>
+      <div className="top-spacer"><a name="home" href="true"> </a></div>
       <Home />
       <About />
       <Projects />

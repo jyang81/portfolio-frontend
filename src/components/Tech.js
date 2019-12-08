@@ -8,7 +8,9 @@ const Tech = () => {
         // eslint-disable-next-line jsx-a11y/anchor-is-valid
         <a name="tech">
         <main className="light-bg">
-            <h2>Technologies</h2>
+            <h2>TECHNOLOGIES</h2>
+            <hr />
+            <h6>I'm quite adaptable and am open to learning new languages and tools.</h6>
             <div className="section">
             <div className="row">
                 <div className={COLUMN}>

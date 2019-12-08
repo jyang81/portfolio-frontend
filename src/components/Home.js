@@ -6,6 +6,7 @@ const Home = () => {
           <img src="myAvatar.png" alt="avatar" className="mainimage" />
           <br />
           <h1>Joe Yang</h1>
+          <hr/>
           <h3>Software Developer</h3>
         </main>
     );
