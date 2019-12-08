@@ -5,6 +5,7 @@ const COLUMN = "logo-wrapper col-6 col-sm-4 col-md-3 col-lg-2"
 
 const Tech = () => {
     return (
+        // eslint-disable-next-line jsx-a11y/anchor-is-valid
         <a name="tech">
         <main className="light-bg">
             <h2>Technologies</h2>
