@@ -131,3 +131,11 @@ footer {
 .p4 {
   background-image: url("/logos/semantic-ui.png");
 }
+
+.center-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
