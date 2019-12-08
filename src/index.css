@@ -1,16 +1,15 @@
 
 /* USE FOR DEBUGGING */
 html * {
-    background: rgba(255, 0, 0, .1);
-    box-shadow: 0 0 0 1px red;
+    /* background: rgba(255, 0, 0, .1);
+    box-shadow: 0 0 0 1px red; */
 }
-
 
 body {
   margin: 0;
-  font-family: "Raleway", "Lato", "Droid Sans", "Helvetica Neue", sans-serif !important;
-  /* -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
+  font-family: "Raleway", "Lato", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
@@ -102,4 +101,24 @@ footer {
 .mainimage {
   border-radius: 50%;
   max-height: 300px;
+}
+
+.project-image {
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 250px;
+}
+
+.p1 {
+  background-image: url("/myAvatar.png");
+}
+.p2 {
+  background-image: url("/logos/bootstrap.png");
+}
+.p3 {
+  background-image: url("/logos/ruby.png");
+}
+.p4 {
+  background-image: url("/logos/semantic-ui.png");
 }

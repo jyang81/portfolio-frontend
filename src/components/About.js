@@ -2,6 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
+        // eslint-disable-next-line jsx-a11y/anchor-is-valid
         <a name="about">
         <main className="light-bg">
             <h2>About Me</h2>
