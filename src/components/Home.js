@@ -7,7 +7,7 @@ const Home = () => {
           <br />
           <h1>Joe Yang</h1>
           <hr/>
-          <h3>Software Developer</h3>
+          <h5>Software Developer • Graphic Designer</h5>
         </main>
     );
 };
