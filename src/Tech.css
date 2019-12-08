@@ -23,17 +23,3 @@
 .logo-wrapper div:hover {
   filter: grayscale(1);
 } */
-/* 
-.logo-wrapper span {
-  display: none;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgb(32, 32, 32);
-  color: #fff;
-}
-
-.logo-wrapper:hover span {
-  display: block;
-} */

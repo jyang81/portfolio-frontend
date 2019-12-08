@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer>
-            Footer
+            JOE YANG &nbsp;  © 2019
         </footer>
     );
 };

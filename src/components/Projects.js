@@ -10,9 +10,7 @@ const Projects = () => {
         <main name="projects">
           <h2>PROJECTS</h2>
           <hr />
-          <h6>
-            Please note that live demos may take a little while to load.
-          </h6>
+          <h6>Please note that live demos may take a little while to load.</h6>
           <div className="container">
             <div className="row">
               <div className={COLUMN}>
@@ -22,8 +20,8 @@ const Projects = () => {
                     <h5 className="card-title">BaseCamp</h5>
                     <p className="card-text">
                       A multi-component dashboard app for coding bootcamp
-                      students to keep them organized and on track throughout their
-                      program.
+                      students to keep them organized and on track throughout
+                      their program.
                     </p>
                     <div className="d-flex justify-content-between align-items-center">
                       <div className="btn-group">
@@ -34,11 +32,7 @@ const Projects = () => {
                           className="btn btn-sm btn-outline-secondary"
                           role="button"
                         >
-                          <i
-                            className="fa fa-external-link"
-                            aria-hidden="true"
-                          ></i>{" "}
-                          Demo
+                          <i className="fas fa-external-link-alt"></i> Demo
                         </a>
                         <a
                           href="https://github.com/jyang81/basecamp-react"
@@ -47,8 +41,7 @@ const Projects = () => {
                           className="btn btn-sm btn-outline-secondary"
                           role="button"
                         >
-                          <i className="fa fa-github" aria-hidden="true"></i>{" "}
-                          GitHub
+                          <i className="fab fa-github"></i> GitHub
                         </a>
                       </div>
                       <medium className="text-muted">More info</medium>
@@ -63,7 +56,8 @@ const Projects = () => {
                     <h5 className="card-title">Green Up! Seattle</h5>
                     <p className="card-text">
                       A game-based waste management education app for the city
-                      of Seattle inspired by seeing too many people throw their garbage away in the wrong bin.
+                      of Seattle inspired by seeing too many people throw their
+                      garbage away in the wrong bin.
                     </p>
                     <div className="d-flex justify-content-between align-items-center">
                       <div className="btn-group">
@@ -74,11 +68,7 @@ const Projects = () => {
                           className="btn btn-sm btn-outline-secondary"
                           role="button"
                         >
-                          <i
-                            className="fa fa-external-link"
-                            aria-hidden="true"
-                          ></i>{" "}
-                          Demo
+                          <i className="fas fa-external-link-alt"></i> Demo
                         </a>
                         <a
                           href="https://github.com/jyang81/greenupseattle"
@@ -87,8 +77,7 @@ const Projects = () => {
                           className="btn btn-sm btn-outline-secondary"
                           role="button"
                         >
-                          <i className="fa fa-github" aria-hidden="true"></i>{" "}
-                          GitHub
+                          <i className="fab fa-github"></i> GitHub
                         </a>
                       </div>
                       <medium className="text-muted">More info</medium>
@@ -102,7 +91,10 @@ const Projects = () => {
                   <div className="card-body">
                     <h5 className="card-title">React Pictionary</h5>
                     <p className="card-text">
-                      Play pictionary online with your friends! This is a realtime drawing game where players draw and guess various words for points. Inspired by my love for drawing, and games such as Yahoo Graffiti and Draw Something.
+                      Play pictionary online with your friends! This is a
+                      realtime drawing game where players draw and guess various
+                      words for points. Inspired by my love for drawing, and
+                      games such as Yahoo Graffiti and Draw Something.
                     </p>
                     <div className="d-flex justify-content-between align-items-center">
                       <div className="btn-group">
@@ -113,11 +105,7 @@ const Projects = () => {
                           className="btn btn-sm btn-outline-secondary"
                           role="button"
                         >
-                          <i
-                            className="fa fa-external-link"
-                            aria-hidden="true"
-                          ></i>{" "}
-                          Demo
+                          <i className="fas fa-external-link-alt"></i> Demo
                         </a>
                         <a
                           href="https://github.com/jyang81/pictionary-react"
@@ -126,8 +114,7 @@ const Projects = () => {
                           className="btn btn-sm btn-outline-secondary"
                           role="button"
                         >
-                          <i className="fa fa-github" aria-hidden="true"></i>{" "}
-                          GitHub
+                          <i className="fab fa-github"></i> GitHub
                         </a>
                       </div>
                       <medium className="text-muted">More info</medium>
@@ -142,7 +129,10 @@ const Projects = () => {
                   <div className="card-body">
                     <h5 className="card-title">Demojify</h5>
                     <p className="card-text">
-                      Who doesn't love emojis? And who doesn't love puzzles? Well, now you can have the best of both worlds with Demojify! Decrypt fun emoji-based puzzles of various categories like movies, songs, and more!
+                      Who doesn't love emojis? And who doesn't love puzzles?
+                      Well, now you can have the best of both worlds with
+                      Demojify! Decrypt fun emoji-based puzzles of various
+                      categories like movies, songs, and more!
                     </p>
                     <div className="d-flex justify-content-between align-items-center">
                       <div className="btn-group">
@@ -153,11 +143,7 @@ const Projects = () => {
                           className="btn btn-sm btn-outline-secondary"
                           role="button"
                         >
-                          <i
-                            className="fa fa-external-link"
-                            aria-hidden="true"
-                          ></i>{" "}
-                          Demo
+                          <i className="fas fa-external-link-alt"></i> Demo
                         </a>
                         <a
                           href="https://github.com/jyang81/demojify"
@@ -166,8 +152,7 @@ const Projects = () => {
                           className="btn btn-sm btn-outline-secondary"
                           role="button"
                         >
-                          <i className="fa fa-github" aria-hidden="true"></i>{" "}
-                          GitHub
+                          <i className="fab fa-github"></i> GitHub
                         </a>
                       </div>
                       <medium className="text-muted">More info</medium>

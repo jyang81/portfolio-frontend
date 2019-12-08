@@ -18,7 +18,7 @@ code {
 }
 
 hr {
-  border: 2px solid rgb(40, 41, 41);
+  border: 2px solid;
   border-radius: 2px;
   width: 4rem;
   margin: 0.35rem 0 1.5rem 0;
@@ -96,6 +96,7 @@ main {
 
 .dark-bg {
   background-color: rgb(72, 72, 72);
+  color: white;
 }
 
 footer {
@@ -103,6 +104,7 @@ footer {
   text-align: center;
   padding: 1rem;
   background-color: rgb(29, 28, 28);
+  color: white;
 }
 
 .mainimage {
@@ -118,7 +120,7 @@ footer {
 }
 
 .p1 {
-  background-image: url("/myAvatar.png");
+  background-image: url("/basecamp-ss.png");
 }
 .p2 {
   background-image: url("/logos/bootstrap.png");
@@ -128,4 +130,12 @@ footer {
 }
 .p4 {
   background-image: url("/logos/semantic-ui.png");
+}
+
+.center-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0 0 1rem 0;
 }
