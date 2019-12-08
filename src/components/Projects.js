@@ -1,139 +1,176 @@
 import React from 'react';
 
 const COLUMN = "col-md-12 col-lg-6";
+const CARD = "card mb-4 shadow-sm";
 
 const Projects = () => {
     return (
-      <a name="projects" href>
+      // eslint-disable-next-line jsx-a11y/anchor-is-valid
+      <a name="projects">
         <main name="projects">
-          <h2>Projects</h2>
+          <h2>PROJECTS</h2>
+          <hr />
           <h6>
-            Please note that live demos may take a few seconds for the first
-            load
+            Please note that live demos may take a little while to load.
           </h6>
-          <div class="container">
-            <div class="row">
-              <div class={COLUMN}>
-                <div class="card mb-4 shadow-sm">
+          <div className="container">
+            <div className="row">
+              <div className={COLUMN}>
+                <div className={CARD}>
                   <div className="project-image p1 card-img-top"></div>
-                  <div class="card-body">
+                  <div className="card-body">
                     <h5 className="card-title">BaseCamp</h5>
-                    <p class="card-text">
+                    <p className="card-text">
                       A multi-component dashboard app for coding bootcamp
-                      students to keep organized and on track throughout their
+                      students to keep them organized and on track throughout their
                       program.
                     </p>
-                    <p class="card-text">
-                      Built with React on a Rails backend with a Postgres db.
-                      Styled with Semantic UI.
-                    </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                    <div className="d-flex justify-content-between align-items-center">
+                      <div className="btn-group">
+                        <a
+                          href="https://base-camp.netlify.com"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn btn-sm btn-outline-secondary"
+                          role="button"
                         >
-                          <i class="fa fa-external-link" aria-hidden="true"></i> Demo
-                        </button>
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                          <i
+                            className="fa fa-external-link"
+                            aria-hidden="true"
+                          ></i>{" "}
+                          Demo
+                        </a>
+                        <a
+                          href="https://github.com/jyang81/basecamp-react"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn btn-sm btn-outline-secondary"
+                          role="button"
                         >
-                          <i class="fa fa-github" aria-hidden="true"></i> GitHub
-                        </button>
+                          <i className="fa fa-github" aria-hidden="true"></i>{" "}
+                          GitHub
+                        </a>
                       </div>
-                      <small class="text-muted">•••</small>
+                      <medium className="text-muted">More info</medium>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class={COLUMN}>
-                <div class="card mb-4 shadow-sm">
+              <div className={COLUMN}>
+                <div className={CARD}>
                   <div className="project-image p2 card-img-top"></div>
-                  <div class="card-body">
+                  <div className="card-body">
                     <h5 className="card-title">Green Up! Seattle</h5>
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
+                    <p className="card-text">
+                      A game-based waste management education app for the city
+                      of Seattle inspired by seeing too many people throw their garbage away in the wrong bin.
                     </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                    <div className="d-flex justify-content-between align-items-center">
+                      <div className="btn-group">
+                        <a
+                          href="https://greenupseattle.herokuapp.com"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn btn-sm btn-outline-secondary"
+                          role="button"
                         >
-                          View
-                        </button>
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                          <i
+                            className="fa fa-external-link"
+                            aria-hidden="true"
+                          ></i>{" "}
+                          Demo
+                        </a>
+                        <a
+                          href="https://github.com/jyang81/greenupseattle"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn btn-sm btn-outline-secondary"
+                          role="button"
                         >
-                          Edit
-                        </button>
+                          <i className="fa fa-github" aria-hidden="true"></i>{" "}
+                          GitHub
+                        </a>
                       </div>
-                      <small class="text-muted">9 mins</small>
+                      <medium className="text-muted">More info</medium>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class={COLUMN}>
-                <div class="card mb-4 shadow-sm">
+              <div className={COLUMN}>
+                <div className={CARD}>
                   <div className="project-image p3 card-img-top"></div>
-                  <div class="card-body">
+                  <div className="card-body">
                     <h5 className="card-title">React Pictionary</h5>
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
+                    <p className="card-text">
+                      Play pictionary online with your friends! This is a realtime drawing game where players draw and guess various words for points. Inspired by my love for drawing, and games such as Yahoo Graffiti and Draw Something.
                     </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                    <div className="d-flex justify-content-between align-items-center">
+                      <div className="btn-group">
+                        <a
+                          href="https://react-pictionary.herokuapp.com"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn btn-sm btn-outline-secondary"
+                          role="button"
                         >
-                          View
-                        </button>
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                          <i
+                            className="fa fa-external-link"
+                            aria-hidden="true"
+                          ></i>{" "}
+                          Demo
+                        </a>
+                        <a
+                          href="https://github.com/jyang81/pictionary-react"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn btn-sm btn-outline-secondary"
+                          role="button"
                         >
-                          Edit
-                        </button>
+                          <i className="fa fa-github" aria-hidden="true"></i>{" "}
+                          GitHub
+                        </a>
                       </div>
-                      <small class="text-muted">9 mins</small>
+                      <medium className="text-muted">More info</medium>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class={COLUMN}>
-                <div class="card mb-4 shadow-sm">
+              <div className={COLUMN}>
+                <div className={CARD}>
                   <div className="project-image p4 card-img-top"></div>
-                  <div class="card-body">
+                  <div className="card-body">
                     <h5 className="card-title">Demojify</h5>
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
+                    <p className="card-text">
+                      Who doesn't love emojis? And who doesn't love puzzles? Well, now you can have the best of both worlds with Demojify! Decrypt fun emoji-based puzzles of various categories like movies, songs, and more!
                     </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                    <div className="d-flex justify-content-between align-items-center">
+                      <div className="btn-group">
+                        <a
+                          href="https://demojify.herokuapp.com"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn btn-sm btn-outline-secondary"
+                          role="button"
                         >
-                          View
-                        </button>
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                          <i
+                            className="fa fa-external-link"
+                            aria-hidden="true"
+                          ></i>{" "}
+                          Demo
+                        </a>
+                        <a
+                          href="https://github.com/jyang81/demojify"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn btn-sm btn-outline-secondary"
+                          role="button"
                         >
-                          Edit
-                        </button>
+                          <i className="fa fa-github" aria-hidden="true"></i>{" "}
+                          GitHub
+                        </a>
                       </div>
-                      <small class="text-muted">9 mins</small>
+                      <medium className="text-muted">More info</medium>
                     </div>
                   </div>
                 </div>
