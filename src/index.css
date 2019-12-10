@@ -1,8 +1,8 @@
 
 /* USE FOR DEBUGGING */
 html * {
-    background: rgba(255, 0, 0, .1);
-    box-shadow: 0 0 0 1px red;
+    /* background: rgba(255, 0, 0, .1);
+    box-shadow: 0 0 0 1px red; */
 }
 
 body {
@@ -132,6 +132,16 @@ footer {
   background-image: url("/ss-demojify1.png");
 }
 
+/* Bold Titles */
+.bold {
+  font-weight: 600;
+}
+
+.right {
+  text-align: right;
+}
+
+/* === CONTACT SECTION === */ 
 .center-icons {
   display: flex;
   flex-direction: column;

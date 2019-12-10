@@ -17,7 +17,7 @@ const Projects = () => {
                 <div className={CARD}>
                   <div className="project-image p1 card-img-top"></div>
                   <div className="card-body">
-                    <h5 className="card-title">BaseCamp</h5>
+                    <h5 className="card-title bold">BaseCamp</h5>
                     <p className="card-text">
                       A multi-component dashboard app for coding bootcamp
                       students to keep them organized and on track throughout
@@ -44,7 +44,7 @@ const Projects = () => {
                           <i className="fab fa-github"></i> GitHub
                         </a>
                       </div>
-                      <medium className="text-muted">More info</medium>
+                      <medium className="text-muted right">More info</medium>
                     </div>
                   </div>
                 </div>
@@ -53,7 +53,7 @@ const Projects = () => {
                 <div className={CARD}>
                   <div className="project-image p2 card-img-top"></div>
                   <div className="card-body">
-                    <h5 className="card-title">Green Up! Seattle</h5>
+                    <h5 className="card-title bold">Green Up! Seattle</h5>
                     <p className="card-text">
                       A game-based waste management education app for the city
                       of Seattle inspired by seeing too many people throw their
@@ -80,7 +80,7 @@ const Projects = () => {
                           <i className="fab fa-github"></i> GitHub
                         </a>
                       </div>
-                      <medium className="text-muted">More info</medium>
+                      <medium className="text-muted right">More info</medium>
                     </div>
                   </div>
                 </div>
@@ -89,7 +89,7 @@ const Projects = () => {
                 <div className={CARD}>
                   <div className="project-image p3 card-img-top"></div>
                   <div className="card-body">
-                    <h5 className="card-title">React Pictionary</h5>
+                    <h5 className="card-title bold">React Pictionary</h5>
                     <p className="card-text">
                       Play pictionary online with your friends! This is a
                       realtime drawing game where players draw and guess various
@@ -117,7 +117,7 @@ const Projects = () => {
                           <i className="fab fa-github"></i> GitHub
                         </a>
                       </div>
-                      <medium className="text-muted">More info</medium>
+                      <medium className="text-muted right">More info</medium>
                     </div>
                   </div>
                 </div>
@@ -127,7 +127,7 @@ const Projects = () => {
                 <div className={CARD}>
                   <div className="project-image p4 card-img-top"></div>
                   <div className="card-body">
-                    <h5 className="card-title">Demojify</h5>
+                    <h5 className="card-title bold">Demojify</h5>
                     <p className="card-text">
                       Who doesn't love emojis? And who doesn't love puzzles?
                       Well, now you can have the best of both worlds with
@@ -155,7 +155,7 @@ const Projects = () => {
                           <i className="fab fa-github"></i> GitHub
                         </a>
                       </div>
-                      <medium className="text-muted">More info</medium>
+                      <medium className="text-muted right">More info</medium>
                     </div>
                   </div>
                 </div>
