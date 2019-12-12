@@ -1,5 +1,5 @@
 import React from 'react';
-import "../Tech.css";
+import "../css/tech.css";
 
 const COLUMN = "logo-wrapper col-6 col-sm-4 col-md-3 col-lg-2"
 
