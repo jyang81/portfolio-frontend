@@ -1,5 +1,7 @@
 import React from 'react';
 
+const COL = "col-auto center-icons"
+
 const Contact = () => {
     return (
       // eslint-disable-next-line jsx-a11y/anchor-is-valid
@@ -9,20 +11,20 @@ const Contact = () => {
           <hr />
           <p>Please contact me at any of the following:</p>
           <div className="section">
-            <div className="row">
-              <div className="col center-icons">
+            <div className="row justify-content-center">
+              <div className={COL}>
                 <i className="far fa-envelope fa-4x"></i>
               </div>
-              <div className="col center-icons">
+              <div className={COL}>
                 <i className="fab fa-github fa-4x"></i>
               </div>
-              <div className="col center-icons">
+              <div className={COL}>
                 <i className="fab fa-linkedin fa-4x"></i>
               </div>
-              <div className="col center-icons">
+              <div className={COL}>
                 <i className="fab fa-twitter fa-4x"></i>
               </div>
-              <div className="col center-icons">
+              <div className={COL}>
                 <i className="fab fa-medium fa-4x"></i>
               </div>
             </div>
