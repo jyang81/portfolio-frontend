@@ -13,9 +13,9 @@ const Home = () => {
         </h5>
         <br />
         <div>
-          <button className="btn btn-outline-primary ">
+          <a href="Joe-Yang-Resume.pdf" className="button btn btn-outline-primary" target="_blank" alt="resume">
             <i className="far fa-file-alt"></i> Download Resume
-          </button>
+          </a>
         </div>
       </main>
     );
