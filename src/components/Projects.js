@@ -9,7 +9,7 @@ const Projects = () => {
         <h2 className="bold">PROJECTS</h2>
         <hr />
         <h6 className="main-copy">
-          Please note that live demos may take a little while to load.
+          Please note: live demos may take a little while to load.
         </h6>
         <div className="container">
           <div className="row">
@@ -20,8 +20,7 @@ const Projects = () => {
                   <h5 className="card-title bold">BaseCamp</h5>
                   <p className="card-text">
                     A multi-component dashboard app for coding bootcamp students
-                    to keep them organized and on track throughout their
-                    program.
+                    to keep them organized and on track throughout their program.
                   </p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
