@@ -6,9 +6,11 @@ const CARD = "card mb-4 shadow-sm";
 const Projects = () => {
     return (
       <main className="" id="projects">
-        <h2>PROJECTS</h2>
+        <h2 className="bold">PROJECTS</h2>
         <hr />
-        <h6>Please note that live demos may take a little while to load.</h6>
+        <h6 className="main-copy">
+          Please note that live demos may take a little while to load.
+        </h6>
         <div className="container">
           <div className="row">
             <div className={COLUMN}>
