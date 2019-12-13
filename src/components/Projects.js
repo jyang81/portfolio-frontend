@@ -5,9 +5,7 @@ const CARD = "card mb-4 shadow-sm";
 
 const Projects = () => {
     return (
-      // eslint-disable-next-line jsx-a11y/anchor-is-valid
-      <a name="projects">
-        <main name="projects">
+        <main name="projects" id="projects">
           <h2>PROJECTS</h2>
           <hr />
           <h6>Please note that live demos may take a little while to load.</h6>
@@ -44,7 +42,7 @@ const Projects = () => {
                           <i className="fab fa-github"></i> GitHub
                         </a>
                       </div>
-                      <medium className="text-muted right">More info</medium>
+                      <small className="text-muted right">More info</small>
                     </div>
                   </div>
                 </div>
@@ -80,7 +78,7 @@ const Projects = () => {
                           <i className="fab fa-github"></i> GitHub
                         </a>
                       </div>
-                      <medium className="text-muted right">More info</medium>
+                      <small className="text-muted right">More info</small>
                     </div>
                   </div>
                 </div>
@@ -117,7 +115,7 @@ const Projects = () => {
                           <i className="fab fa-github"></i> GitHub
                         </a>
                       </div>
-                      <medium className="text-muted right">More info</medium>
+                      <small className="text-muted right">More info</small>
                     </div>
                   </div>
                 </div>
@@ -155,7 +153,7 @@ const Projects = () => {
                           <i className="fab fa-github"></i> GitHub
                         </a>
                       </div>
-                      <medium className="text-muted right">More info</medium>
+                      <small className="text-muted right">More info</small>
                     </div>
                   </div>
                 </div>
@@ -163,7 +161,6 @@ const Projects = () => {
             </div>
           </div>
         </main>
-      </a>
     );
 };
 

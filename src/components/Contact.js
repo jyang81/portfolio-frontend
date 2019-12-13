@@ -6,12 +6,10 @@ const COL = "col-auto center-icons"
 
 const Contact = () => {
     return (
-      // eslint-disable-next-line jsx-a11y/anchor-is-valid
-      <a name="contact">
-        <main className="dark-bg">
+        <main className="dark-bg" id="contact">
           <h2>GET IN TOUCH</h2>
           <hr />
-          <p>Please contact me at any of the following:</p>
+          <h6>Please contact me at any of the following:</h6>
           <div className="section">
             <div className="row justify-content-center">
               <div className={COL}>
@@ -77,7 +75,6 @@ const Contact = () => {
             </div>
           </div>
         </main>
-      </a>
     );
 };
 
