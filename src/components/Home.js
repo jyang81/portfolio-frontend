@@ -7,10 +7,15 @@ const Home = () => {
         <br />
         <h1>Joe Yang</h1>
         <hr />
-        <h4>Software Developer + Graphic Designer</h4>
+        <div className="main-copy"><h4>Software Developer + Graphic Designer</h4></div>
+        <h5>
+          <i className="fas fa-map-marker-alt"></i> Seattle, WA
+        </h5>
         <br />
         <div>
-          <button className="btn btn-primary"><i className="far fa-file-alt"></i> Download Resume</button>
+          <a href="Joe-Yang-Resume.pdf" className="button btn btn-outline-primary" target="_blank" alt="resume">
+            <i className="far fa-file-alt"></i> Download Resume
+          </a>
         </div>
       </main>
     );
