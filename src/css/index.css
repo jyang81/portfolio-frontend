@@ -38,10 +38,11 @@ main {
   padding: 100px 7vw;
 }
 
-h2, h6, h4{
+h2, h6, h4 {
   text-align: center;
 }
 
+/* ==== Eliminates L/R margin on small screens === */
 @media (max-width: 768px) {
   .row {
    margin-left: 0 !important;
@@ -53,13 +54,16 @@ h2, h6, h4{
   padding: 0;
 }
 
+.gradient-bg {
+  background: linear-gradient(#ffffff, #d6ffff);
+}
 
 .light-bg {
-  background-color: rgb(245, 245, 245);
+  background-color: #f5f5f5;
 }
 
 .dark-bg {
-  background-color: rgb(72, 72, 72);
+  background-color: #404140;
   color: white;
 }
 
@@ -67,7 +71,7 @@ footer {
   min-height: 100px;
   text-align: center;
   padding: 1rem;
-  background-color: rgb(29, 28, 28);
+  background-color: #212221;
   color: white;
 }
 
@@ -143,12 +147,19 @@ nav {
 /* nav a:hover {
   color: rgb(15, 237, 185);
 }
+*/
 
-nav a:active {
-  background-color: rgb(53, 223, 223);
-  color: white;
+.my-nav-link {
+  color: white !important;
+  margin: 0 0.8rem;
+  text-align: center;
+  font-size: 1.2rem;
 }
 
-nav .icon {
-  display: none;
-} */
+.my-nav-link:hover, .my-nav-link:focus {
+  color: #33FFED !important;
+}
+
+.navcolor {
+  background: #1181b2;
+}
