@@ -3,20 +3,50 @@ import React from 'react';
 
 const Nav = () => {
     return (
-        <nav>
-            
-            <a href="#home"><img src="logo192.png" className="logo" alt="Joe Yang logo" /></a>
-
-            <a href="#about">About</a> 
-            <a href="#projects">Projects</a> 
-            <a href="#tech">Technologies</a> 
-            <a href="#contact">Contact</a> 
-            {/* <a href="javascript:void(0);" class="icon" >
-                <i class="fa fa-bars"></i>
-            </a> */}
-            
-        </nav>
-    )
+      <nav className="navbar fixed-top navbar-expand-md navbar-dark bg-dark bold">
+        <a className="navbar-brand" href="/">
+          <span className="sr-only">(current)</span>Joe Yang
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div className="navbar-nav ml-auto">
+            <a className="nav-item nav-link" href="#about">
+              About
+            </a>
+            <a className="nav-item nav-link" href="#projects">
+              Projects
+            </a>
+            <a className="nav-item nav-link" href="#tech">
+              Technologies
+            </a>
+            <a className="nav-item nav-link" href="#contact">
+              Contact
+            </a>
+          </div>
+        </div>
+      </nav>
+    );
 }
 
 export default Nav;
+
+
+    //   <nav className="navbar-brand navbar-expand-md navbar-dark bg-primary">
+    //     <a href="#home">
+    //       <img src="logo192.png" className="logo" alt="Joe Yang logo" />
+    //     </a>
+    //     <a href="#about">About</a>
+    //     <a href="#projects">Projects</a>
+    //     <a href="#tech">Technologies</a>
+    //     <a href="#contact">Contact</a>
+    //   </nav>;

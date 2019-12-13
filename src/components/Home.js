@@ -2,12 +2,12 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <main>
+        <main id="home">
           <img src="myAvatar.png" alt="avatar" className="mainimage" />
           <br />
           <h1>Joe Yang</h1>
           <hr/>
-          <h5>Software Developer • Graphic Designer</h5>
+          <h4>Software Developer • Graphic Designer</h4>
         </main>
     );
 };

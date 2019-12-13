@@ -5,9 +5,7 @@ const COLUMN = "logo-wrapper col-6 col-sm-4 col-md-3 col-lg-2"
 
 const Tech = () => {
     return (
-        // eslint-disable-next-line jsx-a11y/anchor-is-valid
-        <a name="tech">
-        <main className="light-bg">
+        <main className="light-bg" id="tech">
             <h2>TECHNOLOGIES</h2>
             <hr />
             <h6>I'm quite adaptable and am open to learning new languages and tools.</h6>
@@ -121,7 +119,6 @@ const Tech = () => {
             </div>
             </div>
         </main>
-        </a>
     );
 };
 
