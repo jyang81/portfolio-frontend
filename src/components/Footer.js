@@ -9,3 +9,6 @@ const Footer = () => {
 };
 
 export default Footer;
+
+// PHoto credit Davids Kokainis
+// https://unsplash.com/@davidsthephotographer
