@@ -11,6 +11,7 @@ body {
   font-family: "Raleway", "Lato", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --main-color: #33f1ff;
 }
 
 code {
@@ -20,6 +21,7 @@ code {
 
 /* ===== SECTION HEADER UNDERLINE ===== */
 hr {
+  color: #12c2e0;
   border: 2px solid;
   border-radius: 2px;
   width: 4rem;
@@ -51,7 +53,8 @@ footer {
 }
 
 ::selection {
-  background: #33ffed;
+  background: var(--main-color);
+  color: black;
 }
 
 .main-copy {
@@ -64,9 +67,15 @@ footer {
   line-height: 170%;
 }
 
+.about {
+  margin: 0 3rem;
+  padding: 1.5rem 1.5rem 1rem 2rem;
+  background: rgba(0, 0, 0, 0.4);
+}
+
 /* ==== Eliminates L/R margin on small screens === */
 @media (max-width: 768px) {
-  .row {
+  .row, .about {
    margin-left: 0 !important;
    margin-right: 0 !important;
   }
@@ -76,6 +85,7 @@ footer {
   padding: 0;
 }
 
+/* === BACKGROUND STYLES === */
 .light-bg {
   background-color: #f5f5f5;
 }
@@ -90,15 +100,15 @@ footer {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-image: url("https://images.unsplash.com/photo-1514562460631-0d690060d1f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80");
-  background-color: #33ffed;
+  background-color: var(--main-color);
   background-blend-mode: multiply;
   color: white;
 }
 
-/* PROFILE PIC */
+/* === PROFILE PIC === */
 .mainimage {
   border-radius: 50%;
-  max-height: 16rem;
+  height: 16rem;
 }
 
 /* ===== PROJECT THUMBNAILS ===== */
@@ -121,7 +131,7 @@ footer {
   background-image: url("/ss-demojify1.png");
 }
 
-/* ============================= */
+/* ======= global styling ======= */
 
 .bold {
   font-weight: 600;
@@ -130,6 +140,13 @@ footer {
 .right {
   text-align: right;
 }
+
+
+
+
+
+
+/* -- Overrides Bootstrap's Primary outline button color -- */
 
 .btn-outline-primary {
   color: #00a7c4;

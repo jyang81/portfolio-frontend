@@ -4,8 +4,8 @@ const About = () => {
     return (
       <main className="pic-bg" id="about">
         <h2 className="bold">ABOUT ME</h2>
-        <hr />
-        <div className="main-copy text-bigger">
+        <hr style={{color: "#ffffff"}} />
+        <div className="about text-bigger">
           <p>
             I'm a graphic designer turned software developer who likes to write semantic code and build things that are useful and creative. Before turning to code, I worked in the advertising industry, designing websites, logos, and all sorts of things for a wide range of clients, from Verizon to local non-profits, winning multiple awards in the process. 
           </p>
