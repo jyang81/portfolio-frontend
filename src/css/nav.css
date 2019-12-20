@@ -7,7 +7,7 @@
 }
 
 .my-nav-link:hover, .my-nav-link:focus {
-  color: #33FFED !important;
+  color: var(--main-color) !important;
 }
 
 .navcolor {
