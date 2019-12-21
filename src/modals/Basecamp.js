@@ -44,7 +44,7 @@ const Basecamp = () => {
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row" style={{ width: "15%" }}>
+                    <th scope="row" className="width-15">
                       What is it?
                     </th>
                     <td>
@@ -53,7 +53,7 @@ const Basecamp = () => {
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row" style={{ width: "15%" }}>
+                    <th scope="row" className="width-15">
                       Why did I make it?
                     </th>
                     <td>
@@ -66,25 +66,75 @@ const Basecamp = () => {
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row" style={{ width: "15%" }}>
+                    <th scope="row" className="width-15">
                       How did I make it?
                     </th>
                     <td>
-                      • Ruby on Rails backend with a React frontend <br />
-                      • PostgreSQL database <br />
-                      • JWT user authorization <br />• Semantic UI and CSS grid
-                      for styling and layout
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td className="text-center width-sm">
+                              <i className="fas fa-code"></i>
+                            </td>
+                            <td>Ruby on Rails backend with a React frontend</td>
+                          </tr>
+                          <tr>
+                            <td className="text-center width-sm">
+                              <i className="fas fa-database"></i>
+                            </td>
+                            <td>PostgreSQL database</td>
+                          </tr>
+                          <tr>
+                            <td className="text-center width-sm">
+                              <i className="fas fa-user"></i>
+                            </td>
+                            <td>JWT user authorization</td>
+                          </tr>
+                          <tr>
+                            <td className="text-center width-sm">
+                              <i className="fas fa-border-style"></i>
+                            </td>
+                            <td>
+                              Semantic UI and CSS grid for styling and layout
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row" style={{ width: "15%" }}>
+                    <th scope="row" className="width-15">
                       Details
                     </th>
                     <td>
-                      For a full write up, please see the ReadMe on Github.{" "}
-                      <br />
-                      Check out the live site here, and log in with{" "}
-                      <code>'demo@demo.com, pw: demo'</code> for a sample user experience, or create your own account.
+                      <p>
+                        For full details on the project, please see the
+                        <a
+                          href="https://github.com/jyang81/basecamp-react"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-decoration-none bold"
+                        >
+                          {" "}
+                          README
+                        </a>
+                        .
+                      </p>
+                      <p>
+                        For a live demo, go to{" "}
+                        <a
+                          href="https://base-camp.netlify.com"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-decoration-none bold"
+                        >
+                          base-camp.netlify.com
+                        </a>{" "}
+                        and log in with <code>demo@demo.com</code>{" "}
+                        <span className="bold">password: </span> <code>demo</code> for a sample
+                        user experience, or create your own account if you'd
+                        like.
+                      </p>
                     </td>
                   </tr>
                 </tbody>

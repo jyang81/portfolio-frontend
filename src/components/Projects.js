@@ -177,7 +177,6 @@ const Projects = () => {
           </div>
         </div>
         <Basecamp />
-        
       </main>
     );
 };

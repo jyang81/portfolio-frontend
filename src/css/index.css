@@ -145,8 +145,13 @@ footer {
   margin-top: 1rem;
 }
 
+.width-sm {
+  width: 5%;
+}
 
-
+.width-15 {
+  width: 15%;
+}
 
 /* -- Overrides Bootstrap's Primary outline button color -- */
 
