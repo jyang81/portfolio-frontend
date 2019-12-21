@@ -1,4 +1,5 @@
 import React from 'react';
+import Basecamp from '../modals/Basecamp.js'
 
 const COLUMN = "col-md-12 col-lg-6";
 const CARD = "card mb-4 shadow-sm";
@@ -20,7 +21,8 @@ const Projects = () => {
                   <h5 className="card-title bold">BaseCamp</h5>
                   <p className="card-text">
                     A multi-component dashboard app for coding bootcamp students
-                    to keep them organized and on track throughout their program.
+                    to keep them organized and on track throughout their
+                    program.
                   </p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
@@ -43,7 +45,12 @@ const Projects = () => {
                         <i className="fab fa-github"></i> GitHub
                       </a>
                     </div>
-                    <button className="btn btn-outline-info btn-sm right">
+                    <button
+                      type="button"
+                      className="btn btn-outline-info btn-sm right"
+                      data-toggle="modal"
+                      data-target="#basecampModal"
+                    >
                       More info
                     </button>
                   </div>
@@ -169,6 +176,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        <Basecamp />
+        
       </main>
     );
 };
