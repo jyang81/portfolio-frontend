@@ -1,5 +1,7 @@
 import React from 'react';
 import Basecamp from '../modals/Basecamp.js'
+import GreenUp from '../modals/GreenUp.js'
+import Pictionary from '../modals/Pictionary.js'
 
 const COLUMN = "col-md-12 col-lg-6";
 const CARD = "card mb-4 shadow-sm";
@@ -88,7 +90,12 @@ const Projects = () => {
                         <i className="fab fa-github"></i> GitHub
                       </a>
                     </div>
-                    <button className="btn btn-outline-info btn-sm right">
+                    <button
+                      type="button"
+                      className="btn btn-outline-info btn-sm right"
+                      data-toggle="modal"
+                      data-target="#greenupModal"
+                    >
                       More info
                     </button>
                   </div>
@@ -127,7 +134,12 @@ const Projects = () => {
                         <i className="fab fa-github"></i> GitHub
                       </a>
                     </div>
-                    <button className="btn btn-outline-info btn-sm right">
+                    <button
+                      type="button"
+                      className="btn btn-outline-info btn-sm right"
+                      data-toggle="modal"
+                      data-target="#pictionaryModal"
+                    >
                       More info
                     </button>
                   </div>
@@ -177,6 +189,8 @@ const Projects = () => {
           </div>
         </div>
         <Basecamp />
+        <GreenUp />
+        <Pictionary />
       </main>
     );
 };

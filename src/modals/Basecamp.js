@@ -130,7 +130,7 @@ const Basecamp = () => {
                         >
                           base-camp.netlify.com
                         </a>{" "}
-                        and log in with <code>demo@demo.com</code>{" "}
+                        and log in with <code>demo@demo.com</code>{", "}
                         <span className="bold">password: </span> <code>demo</code> for a sample
                         user experience, or create your own account if you'd
                         like.
@@ -140,7 +140,7 @@ const Basecamp = () => {
                 </tbody>
               </table>
             </div>
-            {/* <div className="modal-footer">
+            <div className="modal-footer">
               <button
                 type="button"
                 className="btn btn-outline-secondary btn-sm"
@@ -148,7 +148,7 @@ const Basecamp = () => {
               >
                 Close
               </button>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
