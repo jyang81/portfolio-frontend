@@ -2,6 +2,7 @@ import React from 'react';
 import Basecamp from '../modals/Basecamp.js'
 import GreenUp from '../modals/GreenUp.js'
 import Pictionary from '../modals/Pictionary.js'
+import Demojify from '../modals/Demojify.js'
 
 const COLUMN = "col-md-12 col-lg-6";
 const CARD = "card mb-4 shadow-sm";
@@ -153,10 +154,7 @@ const Projects = () => {
                 <div className="card-body">
                   <h5 className="card-title bold">Demojify</h5>
                   <p className="card-text">
-                    Who doesn't love emojis? And who doesn't love puzzles? Well,
-                    now you can have the best of both worlds with Demojify!
-                    Decrypt fun emoji-based puzzles of various categories like
-                    movies, songs, and more!
+                    Can you name this movie: 🏠 😱? Then, this app is for you! Demojify is a puzzle making and solving app using just emojis. Decrypt fun emoji-based puzzles of various categories like movies, songs, and more!
                   </p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
@@ -179,7 +177,12 @@ const Projects = () => {
                         <i className="fab fa-github"></i> GitHub
                       </a>
                     </div>
-                    <button className="btn btn-outline-info btn-sm right">
+                    <button
+                      type="button"
+                      className="btn btn-outline-info btn-sm right"
+                      data-toggle="modal"
+                      data-target="#demojifyModal"
+                    >
                       More info
                     </button>
                   </div>
@@ -191,6 +194,7 @@ const Projects = () => {
         <Basecamp />
         <GreenUp />
         <Pictionary />
+        <Demojify />
       </main>
     );
 };
