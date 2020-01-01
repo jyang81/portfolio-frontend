@@ -1,13 +1,13 @@
 import React from "react";
 
-const Pictionary = () => {
+const Demojify = () => {
   return (
     <div
       className="modal fade"
-      id="pictionaryModal"
+      id="demojifyModal"
       tabIndex="-1"
       role="dialog"
-      aria-labelledby="pictionaryModalTitle"
+      aria-labelledby="demojifyModalTitle"
       aria-hidden="true"
     >
       <div
@@ -16,8 +16,8 @@ const Pictionary = () => {
       >
         <div className="modal-content">
           <div className="modal-header">
-            <h5 className="modal-title bold" id="pictionaryModalTitle">
-              React Pictionary
+            <h5 className="modal-title bold" id="demojifyModalTitle">
+              Demojify
             </h5>
             <button
               type="button"
@@ -48,9 +48,7 @@ const Pictionary = () => {
                     What is it?
                   </th>
                   <td>
-                    A drawing game played online with friends. One player draws,
-                    while the others try to guess the word in real time. The
-                    drawer and guesser both get points for correct guesses.
+                    Description.
                   </td>
                 </tr>
                 <tr>
@@ -58,10 +56,7 @@ const Pictionary = () => {
                     Why did I make it?
                   </th>
                   <td>
-                    I've always loved to draw, and I used to play a game called
-                    Yahoo Graffiti way back in the day, which was basically
-                    online pictionary. Since that game doesn't exist anymore, I
-                    wanted to try and recreate it.
+                    Inspiration
                   </td>
                 </tr>
                 <tr>
@@ -136,7 +131,8 @@ const Pictionary = () => {
                       >
                         react-pictionary.herokuapp.com
                       </a>{" "}
-                      and play with a friend, or open 2 separate browsers to test the app by yourself.
+                      and play with a friend, or open 2 separate browsers to
+                      test the app by yourself.
                     </p>
                   </td>
                 </tr>
@@ -158,4 +154,4 @@ const Pictionary = () => {
   );
 };
 
-export default Pictionary;
+export default Demojify;
