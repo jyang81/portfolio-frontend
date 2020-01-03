@@ -9,7 +9,7 @@ const Tech = () => {
         <h2 className="bold">TECHNOLOGIES</h2>
         <hr />
         <h6 className="main-copy">
-          I'm quite adaptable and am open to learning new languages and tools.
+          I'm proficient with the following languages and tools:
         </h6>
         <div className="section">
           <div className="row">

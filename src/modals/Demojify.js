@@ -31,9 +31,11 @@ const Demojify = () => {
           <div className="modal-body">
             <img
               className="img-fluid rounded"
-              src="pictionary-ss.png"
-              alt="pictionary-1"
+              src="demojify-ss.png"
+              alt="demojify-1"
             />
+            <br />
+            <br />
             <table className="table table-striped table-borderless top-margin">
               <thead>
                 <tr>
@@ -48,7 +50,9 @@ const Demojify = () => {
                     What is it?
                   </th>
                   <td>
-                    Description.
+                    A puzzle app where users can create emoji clues of popular
+                    movies, songs, people, etc. and other users can try to guess
+                    the answers. If they thought it was good, they can give it a like!
                   </td>
                 </tr>
                 <tr>
@@ -56,7 +60,11 @@ const Demojify = () => {
                     Why did I make it?
                   </th>
                   <td>
-                    Inspiration
+                    My co-workers and I used to send each other little emoji
+                    puzzles over gchat when the workload was light, and it
+                    became a fun way to pass the time. I love a good brain
+                    teaser, so I decided to turn our idea into an app so other
+                    people could play and share their favorite puzzles.
                   </td>
                 </tr>
                 <tr>
@@ -70,34 +78,31 @@ const Demojify = () => {
                           <td className="text-center width-sm">
                             <i className="fas fa-code"></i>
                           </td>
-                          <td>Ruby on Rails backend with a React frontend</td>
+                          <td>Ruby on Rails backend</td>
                         </tr>
                         <tr>
                           <td className="text-center width-sm">
-                            <i className="fab fa-html5"></i>
+                            <i className="fab fa-js-square"></i>
                           </td>
-                          <td>HTML5 Canvas for drawing onto screen</td>
+                          <td>Vanilla JavaScript frontend</td>
                         </tr>
                         <tr>
                           <td className="text-center width-sm">
-                            <i className="fas fa-exchange-alt"></i>
+                            <i className="fas fa-database"></i>
                           </td>
-                          <td>
-                            ActionCable to integrate WebSockets for realtime
-                            features
-                          </td>
+                          <td>PostgreSQL database</td>
                         </tr>
                         <tr>
                           <td className="text-center width-sm">
                             <i className="fas fa-user"></i>
                           </td>
-                          <td>JWT user authorization</td>
+                          <td>User login</td>
                         </tr>
                         <tr>
                           <td className="text-center width-sm">
-                            <i className="fas fa-palette"></i>
+                            <i className="fas fa-th-large"></i>
                           </td>
-                          <td>Semantic UI for styling</td>
+                          <td>Full CRUD</td>
                         </tr>
                       </tbody>
                     </table>
@@ -111,7 +116,7 @@ const Demojify = () => {
                     <p>
                       For full details on the project, please see the
                       <a
-                        href="https://github.com/jyang81/pictionary-react"
+                        href="https://github.com/jyang81/demojify"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-decoration-none bold"
@@ -124,15 +129,15 @@ const Demojify = () => {
                     <p>
                       For a live demo, go to{" "}
                       <a
-                        href=" https://react-pictionary.herokuapp.com"
+                        href=" https://demojify.herokuapp.com"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-decoration-none bold"
                       >
-                        react-pictionary.herokuapp.com
+                        demojify.herokuapp.com
                       </a>{" "}
-                      and play with a friend, or open 2 separate browsers to
-                      test the app by yourself.
+                      and see how many puzzles you can guess correctly, or
+                      create your own if you have a good one!
                     </p>
                   </td>
                 </tr>

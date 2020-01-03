@@ -154,7 +154,7 @@ const Projects = () => {
                 <div className="card-body">
                   <h5 className="card-title bold">Demojify</h5>
                   <p className="card-text">
-                    Can you name this movie: 🏠 😱? Then, this app is for you! Demojify is a puzzle making and solving app using just emojis. Decrypt fun emoji-based puzzles of various categories like movies, songs, and more!
+                    Can you name this movie: <span role="img" aria-label="house emoji and scream emoji">🏠 😱</span>? If so, this app is for you! Demojify is a puzzle making and solving app using just emojis. Decipher fun emoji-based puzzles of various categories like movies, songs, and more!
                   </p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
