@@ -6,7 +6,7 @@ const Nav = () => {
     return (
       <nav className="navbar fixed-top navbar-expand-md navbar-dark navcolor">
         <a className="navbar-brand" href="/">
-          <span className="sr-only">(current)</span>Joe Yang
+          <span className="sr-only">(current)</span><img src="joeyangdev-alt.svg" alt="JY logo" className="logo" /> Joe Yang
         </a>
         <button
           className="navbar-toggler"
