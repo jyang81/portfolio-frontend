@@ -9,11 +9,11 @@ const CARD = "card mb-4 shadow-sm";
 
 const Projects = () => {
     return (
-      <main className="" id="projects">
+      <main id="projects">
         <h2 className="bold">PROJECTS</h2>
         <hr />
         <h6 className="main-copy">
-          Please note: live demos may take a little while to load.
+          Please note: demo sites may take a little while to boot up on the first page load. <br />Thanks for your patience!
         </h6>
         <div className="container">
           <div className="row">

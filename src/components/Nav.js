@@ -41,13 +41,3 @@ const Nav = () => {
 
 export default Nav;
 
-
-    //   <nav className="navbar-brand navbar-expand-md navbar-dark bg-primary">
-    //     <a href="#home">
-    //       <img src="logo192.png" className="logo" alt="Joe Yang logo" />
-    //     </a>
-    //     <a href="#about">About</a>
-    //     <a href="#projects">Projects</a>
-    //     <a href="#tech">Technologies</a>
-    //     <a href="#contact">Contact</a>
-    //   </nav>;

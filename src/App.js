@@ -6,7 +6,8 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Tech from './components/Tech';
+import Tech from "./components/Tech";
+import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Tech />
       <Contact />
       <Footer />
+      <ScrollUpButton />
     </div>
   );
 }
