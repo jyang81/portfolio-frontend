@@ -10,13 +10,13 @@ const Contact = () => {
         <h2 className="bold">GET IN TOUCH</h2>
         <hr />
         <h6 className="main-copy">
-          Email me or find me on the web:
+          Send me an email or find me on the web:
         </h6>
         <div className="section">
           <div className="row justify-content-center">
             <div className={COL}>
               <a
-                href="mailto:joe.yang.dev@gmail.com?subject=Nice Portfolio!"
+                href="mailto:hello@joeyang.dev?subject=Nice Portfolio!"
                 target="_blank"
                 rel="noopener noreferrer"
                 alt="email"
