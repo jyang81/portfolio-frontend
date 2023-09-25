@@ -20,16 +20,6 @@ const Home = () => {
           <i className="fas fa-map-marker-alt"></i> Seattle, WA
         </h5>
         <br />
-        <div>
-          <a
-            href="Joe-Yang-Resume.pdf"
-            className="button btn btn-outline-primary"
-            target="_blank"
-            alt="resume"
-          >
-            <i className="far fa-file-alt"></i> Download Resume
-          </a>
-        </div>
       </main>
     );
 };

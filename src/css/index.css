@@ -1,14 +1,6 @@
-
-/* ===== USE FOR LAYOUT DEBUGGING ===== */
-html * {
-    /* background: rgba(255, 0, 0, .1);
-    box-shadow: 0 0 0 1px red; */
-}
-/* ============================= */
-
 body {
   margin: 0;
-  font-family: "Raleway", "Lato", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "Noto", "Lato", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   --main-color: #33f1ff;
@@ -45,11 +37,11 @@ h2, h6, h4 {
 }
 
 footer {
-  min-height: 100px;
+  min-height: 10vh;
   text-align: center;
   padding: 1rem;
   background-color: #212221;
-  color: white;
+  color: rgb(220, 220, 220);
 }
 
 ::selection {
@@ -187,4 +179,14 @@ footer {
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(0, 167, 255, 0.5);
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h-90 {
+  min-height: 90vh;
 }
